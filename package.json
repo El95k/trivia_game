@@ -1,0 +1,28 @@
+{
+  "name": "quizblast",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "6.2.1",
+    "typescript": "5.9.3",
+    "vite": "8.3.5"
+  },
+  "overrides": {
+    "deepmerge": "4.3.1",
+    "glob": "11.1.0",
+    "filelist": "2.0.2",
+    "minimatch": "11.0.4"
+  }
+}
